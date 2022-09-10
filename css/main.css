@@ -1,0 +1,113 @@
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    height: 100vh;
+    min-height: 20px;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 20px;
+
+}
+
+.h1love {
+    font-size: 5.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: -20px;
+    text-align: right;
+    color: rgb(234, 104, 165);
+}
+
+.h1love2 {
+    font-size: 4.3rem;
+    text-align: right;
+
+}
+
+/* section {
+    min-height: 100vh;
+
+} */
+
+#produtos p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+footer {
+    font-size: 18pt;
+}
+
+footer .p1 {
+    font-size: 10pt;
+}
+
+#rose h3 {
+    color: rgb(220, 79, 136);
+}
+
+#rose p {
+    color: rgb(80, 80, 80);
+}
+
+#imgblock img {
+    height: 20em;
+}
+
+#imgblock2 img {
+    height: 200px;
+    width: 200px;
+}
+
+#imgblock2 h2 {
+    color: rgb(220, 79, 136);
+}
+
+footer h1 {
+    color: rgb(220, 79, 136);
+    font-family: century gothic;
+    font-weight: 500;
+}
+
+#contato img {
+    height: 3em;
+    opacity: 0.7;
+}
+
+#contato h3 {
+    font-size: 14pt;
+
+    color: rgb(220, 79, 136);
+}
+
+#contato p {
+    font-size: 10pt;
+}
+
+#footer_final {
+    background-color: rgb(251, 251, 248);
+    width: auto;
+    height: 250px;
+}
+
+#footer_final h1 {
+    font-size: 17pt;
+    font-weight: 600;
+    color: rgb(90, 90, 90);
+}
+
+#footer_final p {
+    font-size: 12pt;
+    margin-bottom: -1pt;
+    opacity: 0.4;
+}
